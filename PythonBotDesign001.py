@@ -94,6 +94,8 @@ async def mute(ctx, member : discord.Member, *, reason=None):
 @bot.command()
 async def date(ctx):
     await ctx.send(date())
+async def time(ctx):
+    await ctx.send(time())
 
 #--------------------------------------Circumcise--------------------------------------
 
