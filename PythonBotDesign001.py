@@ -1,5 +1,6 @@
 import discord
 from datetime import date
+from datetime import time
 from discord.ext import commands
 from random import *
 import json
